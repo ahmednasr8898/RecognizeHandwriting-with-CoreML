@@ -13,6 +13,8 @@
 		CDD140C0282CF5940002F6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD140BE282CF5940002F6F5 /* Main.storyboard */; };
 		CDD140C2282CF5970002F6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD140C1282CF5970002F6F5 /* Assets.xcassets */; };
 		CDD140C5282CF5970002F6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD140C3282CF5970002F6F5 /* LaunchScreen.storyboard */; };
+		CDD140CD282CF5C20002F6F5 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD140CC282CF5C20002F6F5 /* CanvasView.swift */; };
+		CDD140D1282CFCEA0002F6F5 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CDD140D0282CFCEA0002F6F5 /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CDD140C1282CF5970002F6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD140C4282CF5970002F6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDD140C6282CF5970002F6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD140CC282CF5C20002F6F5 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		CDD140D0282CFCEA0002F6F5 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		CDD140B7282CF5940002F6F5 /* RecognizeHandwriting-with-CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				CDD140CC282CF5C20002F6F5 /* CanvasView.swift */,
+				CDD140D0282CFCEA0002F6F5 /* MNIST.mlmodel */,
 				CDD140B8282CF5940002F6F5 /* AppDelegate.swift */,
 				CDD140BA282CF5940002F6F5 /* SceneDelegate.swift */,
 				CDD140BC282CF5940002F6F5 /* ViewController.swift */,
@@ -140,6 +146,8 @@
 			files = (
 				CDD140BD282CF5940002F6F5 /* ViewController.swift in Sources */,
 				CDD140B9282CF5940002F6F5 /* AppDelegate.swift in Sources */,
+				CDD140CD282CF5C20002F6F5 /* CanvasView.swift in Sources */,
+				CDD140D1282CFCEA0002F6F5 /* MNIST.mlmodel in Sources */,
 				CDD140BB282CF5940002F6F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
